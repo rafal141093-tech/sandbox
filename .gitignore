@@ -1,0 +1,18 @@
+# Systemowe
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# Środowisko i Klucze (Bardzo ważne!)
+.env
+config.json
+secrets/
+
+# Archiwum (nie chcemy tego na GitHubie)
+_archive/
+
+# Dane tymczasowe i wrażliwe (PII)
+data/
+*.csv
+*.xlsx
